@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Body </title>
+  
+    <script>  
+        var counter = 1;
+
+        while( counter <= 7){
+            document.writeln(counter + "<p> ex'> HTML5 font size</p>" + counter + "<p>ex</p>");
+          ++counter;
+        }
+
+    </script>
+    
+    
+  
+    <style >
+ /*  
+       document.writeln("<h1> Welcome lovely me </h1>");
+       document.write(" Welcome lovely me");
+       document.write(" Welcome lovely me");
+ 
+       var num1 , num2 , parseNum1 , parseNum2 , sum;
+       num1 = window.prompt("Enter yur 1st nmber");
+       num2 = window.prompt("Enter yur 1st nmber");
+
+       parseNum1 = parseInt(num1);
+       parseNum2 = parseInt(num2);
+
+       sum = parseNum1 + parseNum2;
+       document.write("The sum is : "+sum);
+
+       window.alert("Caution! You are viewing "+ name+ "'s cite \n so yeah")
+   
+    var name; 
+    var cDate = new Date();
+    var hour = cDate.getHours();
+
+       name = window.prompt("Enter ur name: ");
+
+        if ( hour < 12 )
+        document.write("<h1> Good morning, "+name+" ,welcome </h1>");
+        
+        if( hour >= 12){
+            hour = hour - 12;
+            if(hour <6)
+              document.write("<h1> Good Afternoon, ")
+
+            if(hour >= 6)
+              document.write("<h1> Good Evening, ")
+        }
+
+        document.writeln(name + ", welcome");
+
+         */ 
+    
+
+
+        body{
+            background-image: url(ApplePhoto.jpeg);
+            background-repeat: no-repeat;
+            background-size: contain;  
+            text-align: center;
+            color: #444444;    
+            font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;  
+            }
+ /*  Menu start */
+        .vertical-menu {
+            width: 18%;  
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color:#444; /* Dark grey background on mouse-over */
+            opacity: 0.5;
+            color: white; /* white text color */
+            
+        }
+
+        .vertical-menu a {
+           /* background-color:#444; /* Dark grey background on mouse-over */
+            color: white; /* white text color */
+            display:grid; /* Make the links appear below each other */
+            text-decoration: none; /* Remove underline from links */
+            
+        }
+        .vertical-menu a:hover {
+            background-color: rgba(204, 204, 204, 0.307); /* Dark grey background on mouse-over */
+        }
+        .menu-p{
+            padding-bottom:0 ;
+            padding-top: 0;
+            font-size :40px;;
+
+        }
+        .square {
+            height: 80px;
+            width: 85%;
+            margin-left: 4%;
+            margin-top: 8%;
+            position:absolute;
+            opacity: 0.5;
+            background:transparent;
+            border: 10px double white;
+
+        }
+
+        .menu-intro{
+            padding: 15%;
+            font-size:x-large;
+        }
+
+        .menu-owenr{
+            padding: 15%;
+            font-size:x-large;
+
+        }
+
+        .menu-about{
+            padding: 15%;
+            font-size:x-large;
+
+        }
+
+        .menu-service{
+            padding: 15%;
+            font-size:x-large;
+
+        }
+
+        .vertical-menu a:hover {
+            animation: duration timing-function delay iteration-count direction fill-mode;
+        }
+        .imgs-contact{
+            margin-top: 20%;
+        }
+        .img1-contact{
+            width: 12%;
+            margin-left: 22%;
+            border-radius: 15%;
+        }
+        .img2-contact{
+            width: 12%;
+            margin-left: 42%;
+            margin-top: -12%;
+            border-radius: 15%;
+            
+        }.img3-contact{
+            width: 12%;
+            margin-left: 62%;
+            margin-top: -12%;
+            border-radius: 15%;
+        }
+        address{
+            font-size: larger;
+            margin-top: 5%;
+            margin-bottom: 150%;
+        }
+ /*  Menu ends */
+
+ /*  Intro start  */
+      
+        #intro-head{
+            text-align: center;
+            font-size: 50px; 
+            color: white;    
+            position: relative;
+            margin-top: 50%;
+            margin-left: 15%;
+        }
+        .intro-heading{
+            text-align: center;
+            font-size: 40px; 
+            margin-left: 25%;
+
+        }
+        .intro{
+            margin-right: 5%;
+        }
+        .intro-P-1{
+            width: 42%;
+            font-size: 19px;
+            margin-top: 5%;
+            padding-left: 20%;     
+            text-align: justify;
+            line-height: 2;
+         }
+        .intro-P-2{
+            width: 40%;
+            font-size: 18px;
+            margin-top: -170px;
+            margin-left: 64%;
+            text-align: justify;
+            letter-spacing: 0.5px;
+            line-height: 2;
+
+        }
+        .img-loss{
+            width: 50%;
+            margin-left: 20%;
+            margin-top: 2%;
+        }
+      
+ /*  Intro ends  */    
+ 
+ /*  Owenr start  */
+        #Owenr{
+            margin-left: 15% ;
+        }
+        .owenr-heading{
+            text-align: center;
+            font-size: 50px; 
+            margin-left: 0%; 
+        }
+        .owenr-name{
+            text-align: center;
+            margin-left: 15%;
+            margin-top: 10%;
+            font-size: 35px;       
+            letter-spacing: 3px;   
+        }
+        .owenr-p1{
+            color: white;
+        }
+        .owenr-p2{
+            text-align: center;
+            font-size: 25px;          
+            position: relative;
+            margin-top: 10%;
+            margin-left: 15%;
+            line-height: 2;
+
+
+        }
+        .div-owenr{
+            margin-right: 12%;
+            margin-bottom: 20%;
+        }
+ /*  Owenr ends  */
+
+/*   About start */
+        #about{
+            margin-left: 10% ;
+        }
+        .about-head{
+            text-align: center;
+            font-size: 50px; 
+            margin-left: 0%;
+        }
+        .about-p1{
+            color: white;
+        }
+        .about-p2{
+            text-align: justify;
+            font-size: 27px;          
+             margin-top: 10%;
+            margin-left: 20%;
+            letter-spacing: 1px;  
+            line-height: 2;
+
+        }
+/*   About ends */
+
+/*   services start */
+        #services{
+            margin-top: 15%;
+            margin-left: 10%;
+        }
+        .services-p1{
+            color: white;
+        }
+        .services-head{
+            text-align: center;
+            font-size: 50px; 
+            margin-left: 0%;
+        }
+        .services-p2{
+            text-align: center;
+            font-size: 35px;          
+            margin-top: 10%;
+            margin-left: 5%;
+            letter-spacing: 1px;  
+            line-height: 2;
+        }
+        .services-p3{
+            font-size: 35px;          
+            margin-left: 15%;
+            margin-top: -5%;
+            letter-spacing: 1px;  
+        }
+        .BMIcal-img{
+            width: 20%;
+            margin-left: 15%;
+            margin-top: -1%;
+
+
+        }
+        .gym-img{
+            width: 20%;
+            margin-bottom:3.5%;
+            margin-left: -2%;
+
+
+        }
+ 
+    </style>
+</head>
+<body>
+  
+
+<!--
+  1-First page:
+    -Introduction page:
+      -introduction paragragph
+      -Fixed dropdown menu for the whole website
+      -background img
+      -logo for the project name
+      -Contact
+      -Address and copywrights 
+-->
+    <h2 id="intro-head">Introduction</h2>
+ <div class="intro"> 
+    <h2 class="intro-heading">Introduction</h2>
+    <p class="intro-P-1">
+    Achieving healthy weight loss is not about a “diet” or “program”!<br>
+    but a lifestyle with healthy eating patterns, regular physical activity,<br> 
+    and stress management. Losing weight is not easy,<br> and it takes commitment. 
+    </p>
+    <p class="intro-P-2">
+    <strong>Healthy eating</strong> features a variety of healthy foods. And how much<br>
+    <strong>physical activity</strong> you need depends partly on whether you are<br>
+    trying to maintain your weight or lose weight.
+    
+    </p> 
+ </div>
+ 
+
+     <img class="img-loss" src="Medical-Weight-Loss-1.jpg">
+  
+    <div class="vertical-menu">
+        <div class="square"> </div>
+        <p class="menu-p">Dream Body</p>
+       
+        <a class="menu-intro" href="#intro-head">Introduction</a>
+        <a class="menu-owenr" href="#Owenr">Owenr</a>
+        <a class="menu-about" href="#about">About</a>
+        <a class="menu-service" href="#services">Services</a>
+
+     <p class="imgs-contact">
+        <a href="https://twitter.com/alyaalsalamah">
+        <img class="img1-contact" src="images.png" alt="twitter image">
+        </a>
+     
+        <a href="mailto:alsalamahalya@gmail.com">
+        <img class="img2-contact" src="mail.png" alt="Email icon">
+        </a>
+     
+        <a href="https://www.instagram.com/p/CJ_ctK8gRIz/">
+        <img class="img3-contact"src="instagram.png" alt="Instagram icon">
+        </a>
+     </p>
+
+     <address>
+        &copy; 2023 Dream Body, Alya Alsalamah
+     </address>
+    </div>
+
+<!--
+  2-Seconed page:
+    -Owenrs
+    -About us paragarph
+    -Provided services
+-->
+<!---
+    Who we are page 
+-->
+<div id="Owenr"><p class="owenr-p1">Who am I?</p> 
+    <h2 class="owenr-heading">Owenr</h2>
+    <div class="div-owenr">
+   
+    <h2 class="owenr-name">Alya Alsalamah</h2>
+    <p class="owenr-p2">
+    The developer behind <strong>&quotDream Body&quot</strong> is an ambitious student
+    who<br> noticed a main problem which is: what is the right way to calculate a BMI?
+</p><br>
+</div>
+</div>
+
+
+
+
+<div id="about"><p class="about-p1">About</p>
+    <h1 class="about-head">About</h1>
+    <p class="about-p2">
+    <strong>Dream Body</strong> cares of your weight so, <br>
+    it takes care of the process of calculating your BMI(Body Mass Index) <bR>
+    then decides based on the result. A high BMI can indicate high body fatness, <br>
+    low BMI can indicate healthy weight or underweight.<br>
+    BMI screens for weight categories that may lead to health problems, <br>
+    but it does not diagnose the body fatness or health of an individual.<br>
+</p>
+</div>
+ 
+<div id="services"><p class="services-p1">Services</p>
+    <h1 class="services-head">Our Services</h1>
+    <p class="services-p2">
+    Our website offers several services,<br>
+    all you need is <strong>insistence!</strong> <br><br>
+</p>
+</div>
+
+<p class="services-p3">Services listed below:</p>
+
+<p class="services-imgs">
+    <a href="#BMI">
+    <img class="BMIcal-img" src="bmi calc.jpeg" alt="BMI calculator" >
+    </a>
+ 
+    <a href="#Gyms">
+    <img class="gym-img" src="gym.jpeg" alt="Gym icon">
+    </a>
+</p>
+
+<!--
+  3-3rd page:
+    -Servises:
+      -BMI calculator
+      -Healthy stores
+      -Healthy restaurants
+      -Gyms
+-->
+<hr>
+
+<br>
+
+<p id="BMI">
+    <h1 class="BMI-head">BMI Calculator</h1>
+
+    <form method="post" action="#">
+        
+        <p><label> Height: 
+             <input weight="number" type="number" placeholder="Eg. 161 centi" required>
+           Centimetres</label></p>
+
+        <p><label> Weight;
+            <input height="height" type="number" placeholder="Eg. 55 kg" required>
+            Kilograms</label></p>
+  
+        <p class="buttons">
+            <input type="button" value="Calculate">
+            <input type="reset" value="Reset">
+        </p>
+
+<!--  لازم فيه ويندو تطلع تعلمني انا أعاني من السمنة او النحافة وكذا  -->
+
+    </form>
+</p>
+<br>
+<br>
+
+
+<p id="Gyms">
+    <h1 class="gyms-head">Gyms:</h1>
+
+    <p class="gyms-imgs">
+        <a href="#">
+        <img  src="fitnesstime.jpeg" alt="fitnesstime icon" >
+        </a>
+     
+        <a href="#">
+        <img src="puregym.png" alt="puregym icon">
+        </a>
+
+        <a href="#">
+            <img src="nineround.png" alt="nineround icon">
+            </a>
+    </p>
+</p>
+
+
+
+<!--
+  4-4th page:
+    -Survey
+   
+-->
+<hr>
+
+<!-- Get in touch page-->
+<div class="get_in_touch">
+    
+
+    <form method="post" action="/action_page.php" autocomplete="on">
+    
+            
+        <h1 class="getinTouch-head">Get in touch</h1>
+
+        <label for="name"> Name: </label>
+        <input type="text" id="name" name="name" placeholder="name" autofocus required>
+
+        <label for="Email"> Email: </label>
+        <input type="text" id="Email" name="email" placeholder="Enter your E-mail" required />
+        
+        
+        <br>
+        <br>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5" cols="40"></textarea>
+
+        <br>
+        
+
+         <input type="submit" value="submit">
+         <input type="reset" value="clear">
+        
+    </form>
+
+    
+</body>
+</html>
